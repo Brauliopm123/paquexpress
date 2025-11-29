@@ -1,4 +1,3 @@
-# main.py → 100% COMPATIBLE CON TU BASE DE DATOS ACTUAL
 import os
 import shutil
 from datetime import datetime, timedelta
@@ -82,7 +81,7 @@ class Token(BaseModel):
     token_type: str = "bearer"
 
 class LoginIn(BaseModel):
-    email: str        # ← Usamos email porque tu tabla tiene email
+    email: str        
     password: str
 
 class PaqueteOut(BaseModel):

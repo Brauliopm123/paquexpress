@@ -1,5 +1,5 @@
-Sistema de trazabilidad y gestión de entregas para Paquexpress.
 # Paquexpress
+Sistema de trazabilidad y gestión de entregas para Paquexpress.
 
 Proyecto desarrollado en Flutter y FastAPI para la gestión de entregas y trazabilidad de paquetes.
 
@@ -11,11 +11,11 @@ Proyecto desarrollado en Flutter y FastAPI para la gestión de entregas y trazab
 
 # Requisitos Previos
 
-Flutter SDK (Versión X.X.X)
+Flutter SDK
 Python 3.8+ y pip
 MySQL
 
-# Instalación y Uso
+# Instalación y el uso
 
 # 1. Base de Datos (MySQL)
 

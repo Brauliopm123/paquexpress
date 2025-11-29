@@ -1,5 +1,4 @@
-# config.py
-from pydantic_settings import BaseSettings   # ← NUEVA importación correcta
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     MYSQL_USER: str = "root"
@@ -11,6 +10,6 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
     UPLOAD_DIR: str = "./uploads"
 
-    model_config = {"env_file": ".env"}  # ← En v2 se usa model_config en vez de class Config
+    model_config = {"env_file": ".env"}
 
 settings = Settings()
