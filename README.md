@@ -1,4 +1,3 @@
-# paquexpress
 Sistema de trazabilidad y gestión de entregas para Paquexpress.
 # Paquexpress
 
@@ -65,17 +64,13 @@ La aplicación requerirá varias librerías para la funcionalidad (GPS, Cámara,
     dependencies:
       flutter:
         sdk: flutter
-      # HTTP para conectarse a FastAPI
-      dio: ^5.0.0
       # Geolocalización para el GPS
       geolocator: ^11.0.0
       # Captura de foto de evidencia
       image_picker: ^1.0.0
-      # Para manejar el estado de la aplicación
-      provider: ^6.0.0
       # Para almacenamiento seguro del Token JWT
       flutter_secure_storage: ^9.0.0
-      # Para la visualización de mapas (opcional, considera google_maps_flutter)
+      # Para la visualización de mapas
       # google_maps_flutter: ^2.0.0
     ```
 3.  Guarda el archivo y ejecuta para obtener las dependencias:
